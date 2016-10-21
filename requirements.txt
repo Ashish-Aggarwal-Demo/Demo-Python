@@ -4,3 +4,5 @@ rsa==3.4.2
 requests==2.11.1
 feedparser==5.2.1
 pycrypto==2.6.1
+raven==1.9.4        # requires simplejson, will install simplejson==2.4.0
+simplejson==2.3.3   # direct takes precedence for pip
