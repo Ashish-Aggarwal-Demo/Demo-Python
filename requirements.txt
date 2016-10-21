@@ -1,6 +1,8 @@
-django==1.7.1
-PyJWT==0.4.2
-rsa==3.0
-requests==2.2.1
-feedparser==5.1.1
-pycrypto==2.4
+django==1.10.2
+PyJWT==1.4.2
+rsa==3.4.2
+requests==2.11.1
+feedparser==5.2.1
+pycrypto==2.6.1
+raven==1.9.4        # requires simplejson, will install simplejson==2.4.0
+simplejson==2.3.3   # direct takes precedence for pip
